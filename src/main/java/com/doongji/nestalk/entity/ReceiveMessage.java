@@ -8,7 +8,10 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class Message {
-
+public class ReceiveMessage {
+    //json 타입으로
+    private String userId;
     private String message;
+    private String profileImage;
+
 }
