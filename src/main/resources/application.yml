@@ -49,3 +49,7 @@ kafka:
     bootstrap-servers: localhost:9092
     key-serializer: org.springframework.kafka.support.serializer.JsonSerializer
     value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    properties:
+      spring.json.add.type.headers: false
+  properties:
+    spring.json.value.default.type: com.doongji.nestalk.entity.ReceiveMessage
